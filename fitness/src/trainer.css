@@ -1,0 +1,98 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+  
+h1{
+    margin-left: 20px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.navbar-nav {
+  margin-left: 25px;
+
+}
+.navbar-nav .nav-item {
+  
+  gap:20px;
+  width: 490px;
+  position: relative;
+  border:1px solid #ddd; 
+}
+
+.nav-link.btn {
+  font-size: 30px; 
+}
+
+  .nav-link.btn.active {
+    border-radius: 0%;
+    border-bottom: 6px solid black; 
+    width:490px;
+    font-weight: bold;
+    
+}
+  
+   .nav-link.btn:hover {
+    border-radius: 0%;
+    
+    /* border-bottom: 6px solid black; */
+   }
+  
+  .nav-link.btn {
+    border-radius: 0%;
+    border-bottom: 2px solid transparent; /* Transparent underline by default */
+    width:480px;
+    transition: 0.0 ms;
+  }
+
+  .input-group {
+   
+    margin-top: 15px;
+    padding-left: 50px;
+  
+    height:60px;
+    
+  }
+
+
+.input-filter{
+  margin-right: 50px;
+
+}
+  .input-group-text{
+     
+  }
+
+  .btn{
+  }
+
+
+  .carousel-inner{
+
+    margin-left: 20px;
+    margin-right: 20px;
+  
+
+  }
+
+  .carousel-inner {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .carousel-item {
+    width: 100%; /* Ensure each item takes full width */
+    position: relative;
+  }
+
+  #carouselExampleSlidesOnly{
+    overflow-x: hidden;
+     margin-right:10px ;
+    
+  }
+
+.contain{
+    height: 1000px;
+}
+

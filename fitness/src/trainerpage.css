@@ -1,0 +1,119 @@
+.trainer-page {
+    margin-top: 40px;
+  }
+  
+  .head {
+  
+    text-align: left;
+    margin-left: 20px;
+
+  }
+  
+  .trainer-list {
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    gap: 20px; /* Spacing between cards */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding-bottom: 10px; /* Padding at the bottom for better scroll visibility */
+  }
+  
+  .trainer-card {
+    border: 1px solid #ddd;
+    width: 300px; /* Fixed width to prevent inconsistency */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: white;
+    flex-shrink: 0; /* Prevents cards from shrinking in case of limited space */
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .star-icon {
+    color: #ffd700; /* Gold color */
+    margin-bottom: 4px;
+
+  }
+  
+  .heart-icon {
+    cursor: pointer;
+    color: red;
+  }
+  
+  .trainer-image {
+    width: 50%; /* Fill the width of the card */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .card-body {
+    padding: 15px;
+    flex-direction: column;
+    text-align: center; /* Center text content */
+  }
+  
+  .trainer-name {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .connect-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%; /* Make the button full width */
+  }
+  
+  .connect-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .container{
+    margin-top: 20px;
+  }
+
+  .trainer2-image{
+    height:100px ;
+    position: relative;
+
+  }
+
+  .information{
+    display:flex;
+    gap:30px;
+
+  }
+
+  .ima{
+   
+}
+  .card{
+    position: relative;
+      height: 300px;
+      width: 600px;
+}
+
+.trainer-name{
+    margin-top: 5px;
+}
+
+.locations{
+    color:red;
+}
+
+.buttons{
+   
+    
+
+    
+    
+}
